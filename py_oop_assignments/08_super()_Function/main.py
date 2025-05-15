@@ -18,8 +18,8 @@ class Teacher(Person):
     def show_info(self):
 
 # blank line for better readability
-#         
-        print()
+      
+       print()
 
 # teacher ka naam aur subject print karne wala method
 
@@ -28,5 +28,5 @@ class Teacher(Person):
 
 # Object banakar test karte hain
 
-teacher1 = Teacher("Miss Warda", "Mathematics")
-teacher1.show_info()
+t1 = Teacher("Miss Warda", "Mathematics")
+t1.show_info()
